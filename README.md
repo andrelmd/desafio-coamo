@@ -64,7 +64,7 @@ docker-compose up -d
 5. Execute o comando para criar as tabelas e popular a tabela de estados no banco de dados utilizando o arquivo init-database.sql
 
 ### Utilização
-Para utilizar a aplicação, basta fazer uma requisição POST para a rota /calculate com o seguinte corpo:
+Para utilizar a aplicação, basta fazer uma requisição POST para a rota /venda com o seguinte corpo:
 ```json
 {
   "cooperadoId": 1,
