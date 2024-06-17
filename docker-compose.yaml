@@ -1,0 +1,29 @@
+version: '3'
+services:
+  api:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+    networks:
+      - coop
+    depends_on:
+      - db
+
+  db:
+    env_file:
+      - .env
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    networks:
+      - coop
+    
+
+networks:
+  coop:
