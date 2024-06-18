@@ -1,8 +1,8 @@
 ## Desafio Coamo
 
-Projeto feito para o desafio da Coamo, onde foi solicitado um programa, em qualquer linguagem que o candidato se sinta confortável, que calcule descontos, juros e impostos baseados em parâmetros de entrada, como classificação do cliente, estado da unidade e estado a ser enviado.
+Projeto feito  em 1 dia para o desafio da Coamo, onde foi solicitado um programa, em qualquer linguagem que o candidato se sinta confortável, que calcule descontos, juros e impostos baseados em parâmetros de entrada, como classificação do cliente, estado da unidade e estado a ser enviado.
 
-Project made for the Coamo challenge, where a program was requested, in any language that the candidate feels comfortable with, that calculates discounts, interest and taxes based on input parameters, such as customer classification, unit state and state to be sent.
+Project made in 1 day for the Coamo challenge, where a program was requested, in any language that the candidate feels comfortable with, that calculates discounts, interest and taxes based on input parameters, such as customer classification, unit state and state to be sent.
 
 ### Pré-requisitos
 - NodeJs 20.12.2
